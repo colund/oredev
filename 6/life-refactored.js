@@ -132,7 +132,7 @@
 		function threeOutOfThreeFilter ($selection) {
 			return $selection
 				.into(aliveFilter)
-				.into(twoHorizontalNeighboursFilter)
+					.into(twoHorizontalNeighboursFilter)
 		}
 		
 		function adjacentTraverse ($selection) {
